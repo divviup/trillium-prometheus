@@ -2,6 +2,9 @@
 name = "trillium-prometheus"
 version = "0.1.0"
 edition = "2021"
+description = "Trillium handler for Prometheus metrics scrapes"
+repository = "https://github.com/divviup/trillium-prometheus"
+license = "MPL-2.0"
 
 [dependencies]
 prometheus = { version = "0.13.3", default-features = false }
