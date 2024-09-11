@@ -29,7 +29,7 @@ pub fn text_format_handler(registry: Registry) -> Router {
             let encoder = TextEncoder::new();
             match encoder.encode(&registry.gather(), &mut buffer) {
                 Ok(()) => conn
-                    .with_header(
+                    .with_response_header(
                         KnownHeaderName::ContentType,
                         encoder.format_type().to_owned(),
                     )
