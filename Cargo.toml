@@ -1,6 +1,6 @@
 [package]
 name = "trillium-prometheus"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 description = "Trillium handler for Prometheus metrics scrapes"
 repository = "https://github.com/divviup/trillium-prometheus"
