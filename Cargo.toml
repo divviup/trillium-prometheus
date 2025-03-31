@@ -1,13 +1,13 @@
 [package]
 name = "trillium-prometheus"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 description = "Trillium handler for Prometheus metrics scrapes"
 repository = "https://github.com/divviup/trillium-prometheus"
 license = "MPL-2.0"
 
 [dependencies]
-prometheus = { version = "0.13.4", default-features = false }
+prometheus = { version = "0.14.0", default-features = false }
 tracing = { version = "0.1.40", default-features = false }
 trillium = "0.2.20"
 trillium-router = "0.4.1"
