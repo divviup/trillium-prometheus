@@ -13,5 +13,5 @@ trillium = "0.2.20"
 trillium-router = "0.4.1"
 
 [dev-dependencies]
-trillium-smol = "0.4.2"
+trillium-smol = "0.5.0"
 trillium-testing = { version = "0.7.0", features = ["smol"] }
